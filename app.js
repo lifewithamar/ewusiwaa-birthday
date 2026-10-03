@@ -7,7 +7,7 @@
 const initialWishes = [
   {
     id: 'tribute-3',
-    author: 'Baffour Kwadwo Senkyire',
+    author: 'Baffour Kwadjo Senkyire',
     relation: 'Childhood friend',
     type: 'video',
     avatar: 'SK',
