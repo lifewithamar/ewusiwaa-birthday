@@ -15,7 +15,7 @@ const initialWishes = [
     videoDuration: '00:31',
     videoTitle: 'To the Queen of Grace',
     quote: 'To our queen who carries blue with more elegance than the sky itself.',
-    fullMessage: "Ewusiwaa my dearest! Watching you step into rooms with that effortless poise and warmth is a masterclass in elegance. Thank you for bringing joy, boundless laughter, and honest friendship everywhere you go. Here is to celebrating you in style!",
+    fullMessage: "Happy 4th October or should I say Happy Birthday, Nana Ewusiwaa ❤️. I love today for you, and I genuinely want nothing but happiness for you. May God grant you all your wishes and desires, bless your new age with endless opportunities and reward you for the beautiful heart you have. May your strength never fail you, your intelligence continue to open doors for you, and may you always be surrounded by the same love and loyalty you give so freely to others. Thank you for being such a wonderful friend and for always showing up. I pray this new chapter brings you nothing but beautiful memories, growth and countless reasons to smile. You deserve all the beautiful things life has to offer. Have the most amazing birthday! ❤️",
   },
   {
     id: 'tribute-1',
