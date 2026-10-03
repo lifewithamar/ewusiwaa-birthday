@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ewusiwaa — 21st Birthday Celebration & Anthology</title>
+  <meta name="description"
+    content="An elegant, editorial celebration for Ewusiwaa, featuring cinematic video tributes, heartfelt letters, and cherished memories from her friends." />
+
+  <!-- High-End Editorial Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ambient Ethereal Light Background -->
+  <div class="ambient-glow-layer" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Editorial Top Navigation Bar -->
+  <header class="editorial-header" id="top-nav">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <span class="brand-monogram">E</span>
+        <div class="brand-text">
+          <span class="brand-name">EWUSIWAA</span>
+          <span class="brand-edition">21ST BIRTHDAY EDITION</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="#hero" class="nav-link">Overview</a>
+        <a href="#tributes" class="nav-link">Tributes & Cinema</a>
+        <a href="#anthology" class="nav-link">The Anthology</a>
+        <a href="#letter" class="nav-link">Collective Letter</a>
+      </nav>
+
+      <div class="nav-utilities">
+        <!-- Ambience Audio Toggle -->
+        <button class="utility-btn audio-toggle-btn" id="music-toggle" aria-label="Toggle ambient soundtrack">
+          <div class="sound-wave-icon" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <span class="utility-label">Ambience: <strong id="music-status">Quiet</strong></span>
+        </button>
+
+        <!-- Subtle Celebration Sparks -->
+        <button class="utility-btn celebrate-btn" id="confetti-trigger" aria-label="Celebrate">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+          </svg>
+          <span class="utility-label">Toast</span>
+        </button>
+
+        <!-- Add Tribute CTA -->
+        <button class="nav-primary-btn" id="open-add-wish-btn">
+          <span>+ Add Tribute</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO SECTION: Haute Couture / Editorial Aesthetic -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow-text">Celebrating 21 Years of Grace, Intellect & Radiance</span>
+          <span class="eyebrow-line"></span>
+        </div>
+
+        <h1 class="hero-main-title">
+          Ewusiwaa
+        </h1>
+
+        <p class="hero-inscription">
+          To our dearest soul—whose quiet light warms every space she enters, whose laughter remains our favorite song,
+          and whose presence elevates all of our lives.
+        </p>
+
+        <!-- Understated Exhibition Metric Strip -->
+        <div class="hero-metrics-bar">
+          <div class="metric-block">
+            <span class="metric-value" id="video-count-stat">4</span>
+            <span class="metric-title">Video Tributes</span>
+          </div>
+          <span class="metric-sep">/</span>
+          <div class="metric-block">
+            <span class="metric-value" id="notes-count-stat">7</span>
+            <span class="metric-title">Written Reflections</span>
+          </div>
+          <span class="metric-sep">/</span>
+          <div class="metric-block">
+            <span class="metric-value">01</span>
+            <span class="metric-title">Incomparable Soul</span>
+          </div>
+        </div>
+
+        <!-- Hero Actions -->
+        <div class="hero-actions">
+          <a href="#tributes" class="btn-editorial-primary">
+            <span>View All Tributes</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#letter" class="btn-editorial-secondary">
+            <span>Read Collective Letter</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRIBUTES & VIDEO CINEMA SECTION -->
+    <section id="tributes" class="section-wrapper tributes-section">
+      <div class="section-heading-container">
+        <span class="section-pre-title">Friends & Loved Ones</span>
+        <h2 class="section-main-title">Words, Tributes & Cinema</h2>
+        <div class="section-ornament"></div>
+        <p class="section-lead">
+          Recorded voices, personal letters, and unspoken gratitude from those who cherish you most.
+        </p>
+      </div>
+
+      <!-- Exhibition Toolbar -->
+      <div class="exhibition-toolbar">
+        <div class="filter-group" role="tablist">
+          <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">
+            All Tributes (<span id="all-count">11</span>)
+          </button>
+          <button class="filter-tab" data-filter="video" role="tab" aria-selected="false">
+            Cinematic Videos (<span id="video-count">4</span>)
+          </button>
+          <button class="filter-tab" data-filter="text" role="tab" aria-selected="false">
+            Written Letters (<span id="text-count">7</span>)
+          </button>
+        </div>
+
+        <div class="toolbar-search-wrapper">
+          <svg class="search-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <path d="M21 21l-4.35-4.35" />
+          </svg>
+          <input type="text" id="friend-search-input" placeholder="Search by name or thought..."
+            aria-label="Search tributes" />
+        </div>
+      </div>
+
+      <!-- Tributes Grid -->
+      <div class="tributes-grid" id="wishes-grid-container">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+    </section>
+
+    <!-- THE ANTHOLOGY: TWENTY-ONE REFLECTIONS (Sophisticated Luxury Exhibition) -->
+    <section id="anthology" class="section-wrapper anthology-section">
+      <div class="section-heading-container">
+        <span class="section-pre-title">The 21st Edition Anthology</span>
+        <h2 class="section-main-title">Twenty-One Reflections on Ewusiwaa</h2>
+        <div class="section-ornament"></div>
+        <p class="section-lead">
+          Twenty-one timeless chapters celebrating 21 years of grace, intellect, and irreplaceable light.
+        </p>
+      </div>
+
+      <div class="anthology-grid" id="reasons-grid">
+        <!-- Reasons cards populated with quiet luxury aesthetic -->
+      </div>
+    </section>
+
+    <!-- THE ARCHIVAL COLLECTIVE LETTER -->
+    <section id="letter" class="section-wrapper letter-section">
+      <div class="section-heading-container">
+        <span class="section-pre-title">Handwritten Correspondence</span>
+        <h2 class="section-main-title">The Collective Letter</h2>
+        <div class="section-ornament"></div>
+      </div>
+
+      <div class="archival-stationery-wrapper">
+        <div class="stationery-card">
+          <!-- Monogram Embossment -->
+          <div class="stationery-crest">
+            <div class="monogram-seal">E</div>
+            <span class="crest-caption">DEDICATED TO EWUSIWAA</span>
+          </div>
+
+          <div class="letter-inner-content">
+            <header class="letter-meta-header">
+              <span class="letter-greeting">Dearest Ewusiwaa,</span>
+              <span class="letter-dateline">On Your 21st Birthday</span>
+            </header>
+
+            <article class="letter-prose">
+              <p class="lead-paragraph">
+                <span class="dropcap">I</span>f this world possessed more hearts carrying your rare softness, everything
+                would feel calmer, kinder, and profoundly more luminous. You possess an innate grace that never needs to
+                announce itself—a quiet presence that settles whatever room you enter.
+              </p>
+              <p>
+                You are the friend who listens with complete stillness, who celebrates others’ small victories as though
+                they were your own, and whose genuine laughter has a way of turning the heaviest day into ease. Watching
+                your journey—your ambition, your patience, and your kindness—has been a constant source of quiet
+                inspiration to each of us.
+              </p>
+              <p>
+                In this next chapter as you celebrate turning 21, we wish you undisturbed peace of mind, unhindered
+                dreams, deep belly laughs, and
+                horizons as broad and serene as the morning light. Never forget how profoundly loved you are, and how
+                much richer our worlds are simply because you exist.
+              </p>
+
+              <div class="letter-valediction">
+                <p class="closing-phrase">With our deepest affection and timeless friendship,</p>
+                <span class="closing-signature">All Your Friends & Loved Ones</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EDITORIAL FOOTER -->
+    <footer class="editorial-footer">
+      <div class="footer-inner">
+        <div class="footer-monogram">E</div>
+        <h3 class="footer-title">Ewusiwaa</h3>
+        <p class="footer-subtitle">Curated with admiration by your circle of friends.</p>
+        <div class="footer-divider"></div>
+        <p class="footer-copyright">May your days ahead be filled with grace, peace, and light blue skies.</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- MODAL: CINEMATIC VIDEO PLAYER -->
+  <div class="editorial-modal-backdrop" id="video-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="editorial-modal-window video-modal-window">
+      <button class="modal-close-trigger" id="close-video-modal" aria-label="Close video player">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="cinema-layout">
+        <!-- Theater Screen -->
+        <div class="cinema-screen">
+          <video id="real-video-player" playsinline
+            style="display: none; width: 100%; height: 100%; object-fit: contain; background: #0b141d;"></video>
+          <canvas id="mock-video-canvas" width="720" height="450"></canvas>
+
+          <!-- Floating Unmute Banner if Browser Blocked Audio -->
+          <button class="cinema-unmute-prompt" id="cinema-unmute-prompt" style="display: none;"
+            aria-label="Unmute audio">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+              <line x1="23" y1="9" x2="17" y2="15"></line>
+              <line x1="17" y1="9" x2="23" y2="15"></line>
+            </svg>
+            <span>Audio is muted · Click to unmute</span>
+          </button>
+
+          <div class="cinema-player-controls">
+            <button class="cinema-play-btn" id="modal-play-btn" aria-label="Play/Pause">
+              <span id="play-pause-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </span>
+            </button>
+            <div class="cinema-scrubber" id="video-progress-wrap">
+              <div class="cinema-scrubber-track">
+                <div class="cinema-scrubber-fill" id="video-progress-fill"></div>
+              </div>
+            </div>
+            <span class="cinema-timestamp" id="video-time-display">00:00 / 00:31</span>
+
+            <!-- Audio Mute/Unmute Toggle -->
+            <button class="cinema-ctrl-btn" id="modal-volume-btn" aria-label="Toggle audio mute">
+              <span id="volume-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                </svg>
+              </span>
+            </button>
+
+            <!-- Fullscreen Button -->
+            <button class="cinema-ctrl-btn" id="modal-fullscreen-btn" aria-label="Toggle fullscreen">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Cinema Details Column -->
+        <div class="cinema-aside">
+          <div class="cinema-author-header">
+            <div class="author-monogram-circle" id="modal-author-avatar">A</div>
+            <div>
+              <h3 class="cinema-author-name" id="modal-author-name">Friend Name</h3>
+              <span class="cinema-author-relation" id="modal-author-relation">Best Friend</span>
+            </div>
+          </div>
+
+          <div class="cinema-transcript-block">
+            <span class="transcript-label">Personal Reflection</span>
+            <p class="cinema-quote-text" id="modal-quote-text">
+              “Ewusiwaa, you have this superpower of making every single person around you feel seen, worthy, and
+              loved.”
+            </p>
+          </div>
+
+          <div class="cinema-footer-actions">
+            <button class="cinema-toast-btn" id="cinema-toast-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                </path>
+              </svg>
+              <span>Send Affection</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: ADD A TRIBUTE -->
+  <div class="editorial-modal-backdrop" id="add-wish-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="editorial-modal-window add-tribute-window">
+      <button class="modal-close-trigger" id="close-add-modal" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header-editorial">
+        <span class="modal-sub-label">A TRIBUTE TO EWUSIWAA</span>
+        <h2 class="modal-main-title">Pen Your Reflection</h2>
+        <p class="modal-desc">Share a warm memory, an inside story, or recorded video tribute for her milestone.</p>
+      </div>
+
+      <form id="add-wish-form" class="editorial-form">
+        <div class="form-grid-2">
+          <div class="input-block">
+            <label for="wish-author-name">Your Full Name</label>
+            <input type="text" id="wish-author-name" placeholder="e.g. Kwame Adom" required />
+          </div>
+          <div class="input-block">
+            <label for="wish-relation">Relationship / Affinity</label>
+            <input type="text" id="wish-relation" placeholder="e.g. University Confidante, Sister" />
+          </div>
+        </div>
+
+        <div class="input-block">
+          <label>Format of Tribute</label>
+          <div class="segmented-choice">
+            <label class="choice-item">
+              <input type="radio" name="wish-type" value="text" checked />
+              <span>Written Letter</span>
+            </label>
+            <label class="choice-item">
+              <input type="radio" name="wish-type" value="video" />
+              <span>Cinematic Video</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="input-block">
+          <label for="wish-message">Your Tribute / Message</label>
+          <textarea id="wish-message" rows="4"
+            placeholder="Write what Ewusiwaa means to you, a favorite memory, or your heartfelt blessings..."
+            required></textarea>
+        </div>
+
+        <div class="input-block video-extra-field" id="video-extra-field" style="display: none;">
+          <label for="wish-video-caption">Video Tribute Title</label>
+          <input type="text" id="wish-video-caption" placeholder="e.g. 'A Toast from Accra with Love'" />
+        </div>
+
+        <div class="form-actions-row">
+          <button type="button" class="btn-cancel" id="cancel-add-modal">Cancel</button>
+          <button type="submit" class="btn-submit-editorial">Publish to Collection</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Minimalist Toast -->
+  <div class="editorial-toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Application Logic -->
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>

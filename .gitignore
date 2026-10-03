@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Vercel deployment folder
+.vercel/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Root videos folder (redundant duplicate of public/videos/)
+/videos/
